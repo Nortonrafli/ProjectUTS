@@ -9,8 +9,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.LinearLayout;
 import ProjectJalanJalan.uts.R;
+import ProjectJalanJalan.uts.Activity.DetailActivity
 
 /**
  * A simple {@link Fragment} subclass.
