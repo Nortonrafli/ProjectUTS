@@ -9,7 +9,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="332dp"
+        android:layout_height="344dp"
         android:scaleType="fitXY"
         android:src="@drawable/banyuwangi"></ImageView>
 
@@ -66,7 +66,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/jarwo"
+                    android:src="@drawable/pulaumerah"
                     android:scaleType="fitXY"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -76,17 +76,14 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="ADIT SOPO JARWO"
+                        android:text="Pantai Pulau Merah"
                         android:textColor="@android:color/black"
                         android:textSize="20sp"></TextView>
+
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Sopo Jarwo"></TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="100k Views . 23 hours ago"></TextView>
+                        android:layout_height="70dp"
+                        android:text="Pantai ini dikenal karena sebuah bukit hijau kecil dengan tanah berwarna merah yang terletak di dekat bibir pantai. "></TextView>
                 </LinearLayout>
 
             </LinearLayout>
@@ -99,7 +96,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/upin"
+                    android:src="@drawable/ijen"
                     android:scaleType="fitXY"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -109,17 +106,13 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="UPIN IPIN - KERIS SIAMANG TUNGGAL "
+                        android:text="Kawah Ijen"
                         android:textColor="@android:color/black"
                         android:textSize="20sp"></TextView>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Upin Ipin"></TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="800k Views . 1 day ago"></TextView>
+                        android:text="Gunung Ijen adalah sebuah gunung berapi yang terletak di perbatasan antara Kabupaten Banyuwangi dan Kabupaten Bondowoso, Jawa Timur "></TextView>
                 </LinearLayout>
 
             </LinearLayout>
@@ -132,7 +125,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/nussa"
+                    android:src="@drawable/baluran"
                     android:scaleType="fitXY"></ImageView>
 
                 <LinearLayout
@@ -143,18 +136,14 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="NUSSA - BELAJAR IKHLAS"
+                        android:text="Baluran"
                         android:textColor="@android:color/black"
                         android:textSize="20sp"></TextView>
 
-                    <TextView
+                      <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Nussa Official"></TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="500k Views . 15 hours ago"></TextView>
+                        android:text="Taman Nasional Baluran adalah salah satu Taman Nasional di Indonesia yang terletak di antara wilayah Wongsorejo"></TextView>
                 </LinearLayout>
 
             </LinearLayout>
