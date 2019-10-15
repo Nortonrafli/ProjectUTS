@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import ProjectJalanJalan.uts.R;
+
 public class WelcomeActivity extends AppCompatActivity {
 
     @Override
