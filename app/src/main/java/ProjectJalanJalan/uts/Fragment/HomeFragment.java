@@ -1,6 +1,7 @@
 package ProjectJalanJalan.uts.Fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -11,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import ProjectJalanJalan.uts.R;
-import ProjectJalanJalan.uts.Activity.DetailActivity
+import ProjectJalanJalan.uts.Activity.DetailActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,6 +23,8 @@ import ProjectJalanJalan.uts.Activity.DetailActivity
  * create an instance of this fragment.
  */
 public class HomeFragment extends Fragment {
+    LinearLayout detail;
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -68,14 +71,16 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
-    }
-
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        detail = view.findViewById(R.id.detail);
+        detail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), DetailActivity.class);
+                startActivity(intent);
+            }
+        });
+        return view;
     }
 
     @Override
