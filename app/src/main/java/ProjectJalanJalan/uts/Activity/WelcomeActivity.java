@@ -18,7 +18,6 @@ import android.widget.TextView;
 
 import ProjectJalanJalan.uts.MainActivity;
 import ProjectJalanJalan.uts.R;
-
 public class WelcomeActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private MyViewPagerAdapter myViewPagerAdapter;
@@ -26,6 +25,7 @@ public class WelcomeActivity extends AppCompatActivity {
     private TextView[] dots;
     private int[] layouts;
     private Button btnSkip, btnNext;
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
@@ -91,7 +91,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     private void launchHomeScreen() {
-        startActivity(new Intent(WelcomeActivity.this,navigation.class));
+        startActivity(new Intent(WelcomeActivity.this, NavigationActivity.class));
         finish();
     }
 
@@ -161,5 +161,4 @@ public class WelcomeActivity extends AppCompatActivity {
             container.removeView(view);
         }
     }
-
 }
